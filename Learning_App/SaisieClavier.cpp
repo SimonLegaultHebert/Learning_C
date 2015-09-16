@@ -1,23 +1,18 @@
 #include <iostream> // Inclut la bibliothèque iostream (affichage de texte)
+#include <string>
 
 using namespace std;
 
-void afficherMenu() {
-	cout << "Programme de la saisie clavier" << endl;
-	cout << "Quel age avez vous?" << endl;
-}
-
-int saisirAge() {
-	int ageUtilisateur;
-	cin >> ageUtilisateur;
-	return ageUtilisateur;
-}
-
-//int main()
-//{
-//	afficherMenu();
-//	int age = saisirAge();
-//	cout << "Vous avez " << age << " ans" << endl;
+//int main(){
+//	cout << "Quel est votre nom ?" << endl;
+//	string nomUtilisateur("Sans nom"); //On crée une case mémoire pour contenir une chaine de caractères
+//	getline(cin, nomUtilisateur); //On remplit cette case avec toute la ligne que l'utilisateur a écrit
+//
+//	cout << "Combien vaut pi ?" << endl;
+//	double piUtilisateur(-1.); //On crée une case mémoire pour stockerun nombre réel
+//	cin >> piUtilisateur; //Et on remplit cette case avec ce qu'écritl'utilisateur
+//
+//	cout << "Vous vous appelez " << nomUtilisateur << " et vous pensez que pi vaut " << piUtilisateur << "." << endl;
 //	return 0;
 //}
 
